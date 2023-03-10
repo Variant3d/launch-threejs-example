@@ -8,6 +8,12 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no"
     />
     <link type="text/css" rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="info">
+      <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a>
+      ar - paint<br />
+    </div>
     <script
       async
       src="https://ga.jspm.io/npm:es-module-shims@1.5.17/dist/es-module-shims.js"
@@ -30,7 +36,7 @@
       import { TubePainter } from "three/addons/misc/TubePainter.js";
 
       window.addEventListener("vlaunch-initialized", (e) => {              
-        if (e.detail.webxrStatus === "supported") {
+        if (e.detail.webXRStatus === "supported") {
           //WebXR is supported
           document.body.appendChild(
             ARButton.createButton(renderer, { requiredFeatures: ["hit-test"] })
@@ -163,11 +169,5 @@
         renderer.render(scene, camera);
       }
     </script>
-  </head>
-  <body>
-    <div id="info">
-      <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a>
-      ar - paint<br />
-    </div>    
   </body>
 </html>

@@ -1,6 +1,6 @@
 # launch-threejs-example
 
-How to use the [Variant Launch](https://launch.variant3d.com) SDK with the web's most popular 3D engine, three.js.
+How to use the Variant Launch SDK with the web's most popular 3D engine. Adapted from the examples at [https://threejs.org/examples/](https://threejs.org/examples/)
 
 ## Installation
 
@@ -16,4 +16,4 @@ How to use the [Variant Launch](https://launch.variant3d.com) SDK with the web's
 
  ## Help
 
- For quick hosting we recommend using Cloudflare Pages as a fast and free way to host your sample code online. See our [Development Guide](https://launch.variant3d.com/docs/development-guide) for more information.
+ For quick hosting we recommend using Cloudflare's Pages as a fast and free way to host your sample code online. See our [Development Guide](https://launch.variant3d.com/docs/development-guide) for more information.
